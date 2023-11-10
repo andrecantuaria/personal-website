@@ -88,8 +88,6 @@ p {
     font-size:16px;
     font-weight: 500;
     color: var(--app-dark-gray-bg);
-    line-height: 1.4;
-    margin-bottom: 30px;
 }
 
 a {
@@ -100,6 +98,10 @@ a {
 
 .bold {
     font-weight: 700;
+}
+
+header, footer {
+    height: 60px;
 }
 
 /*--------------HEADER----------------------*/
@@ -153,4 +155,50 @@ nav ul li + li {
 .logo {
     color: var(--app-white);
     line-height: 60px;
+}
+
+/*--------------FOOTER----------------------*/
+
+footer {
+    background-color: #f5f6f9;
+    height: 60px;
+}
+
+.social-icons {
+    width: 40%;
+    text-align: left;
+    line-height: 60px;
+    vertical-align: baseline;
+} 
+
+.font-awesome i {
+    font-size: 20px;
+    color: #505464;
+    padding: 6px;
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.font-awesome i:hover {
+    font-size: 20px;
+    color: #602AC8;
+    padding: 6px;
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.copyright {
+    width: 60%;
+    line-height: 60px;
+    vertical-align: baseline;
+    text-align: right;
+}
+
+.copyright p {
+    color: #505464;
+    font-weight: 500;
 }
