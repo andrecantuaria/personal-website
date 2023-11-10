@@ -20,16 +20,17 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     </head>
     <body> 
+        <!-- Header-->
         <header>
             <div class="container flexbox">
                 <div>
-                    <h2 class="logo">Andre Cantuaria</h2>
+                    <h2 class="logo">ANDRE <i class="fa-solid fa-code"></i> CANTUARIA</h2>
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#projects">My Projects</a></li>
+                        <li><a href="#sayhello">Say Hello!</a></li>
                     </ul>
                 </nav>
             </div>
@@ -43,16 +44,16 @@
                 <div class="overlay"></div>
                 <div class="content-video">
                     <p>alert("Hello, World!");</p>
-                    <h1>I'm Andre Cantuaria </h1>
-                    <h2>A fullstack Developer</h2>
+                    <h1>I'm Andre Cantuaria</h1>
+                    <h2>A fullstack developer based in Winnipeg, Canada</h2>
                     <div class="btn btn-blue">
-                        <a href="#"> Download Resume</a>
+                        <a href="#"><i class="fa-solid fa-download"></i> Download Resume</a>
                     </div>
                 </div> 
             </div>
             <!-- About Section-->
             <section>
-                <div class="white-background">
+                <div class="white-background" id="about">
                     <div class="container">
         
                         <div class="row-about">
@@ -75,7 +76,7 @@
             </section>>
             <!-- Featured Section-->
             <section>
-                <div class="turquoise-background ">
+                <div class="turquoise-background" id="featured">
                     <div class="container">
                         <div class="featured-container">
                             <div class="featured-column">
@@ -103,7 +104,7 @@
                                     <h1><i class="fa-solid fa-bullseye"></i></h1>
                                 </div>
                                 <div class="featured-text">
-                                    <h2>Estrategy</h2>
+                                    <h2>Strategy</h2>
                                     <p>Strong background in marketing and strategy, which influences my approach to design and code.</p>
                                 </div>
                             </div>
@@ -111,7 +112,27 @@
                     </div>
                 </div>         
             </section>
+             <!-- Projects-->
+             <section>
+                <div class="grayish-blue-background" id="projects">
+                    <div class="container">
+        
+                        <div class="row-project project-text">
+                            <div class="column-project one-project">
+                                <h2>I've been working on some great projects</h2>
+                            </div>
+                            <div class="column-project two-project">
+                                <div class="btn btn-blue">
+                                    <a href="https://github.com/andrecantuaria?tab=repositories" target="_blank">
+                                        <i class="fa-solid fa-code-branch"></i> Check my repositories</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
+        <!-- Footer-->
         <footer>
             <div class="container flexbox">
                 <div class="social-icons">
