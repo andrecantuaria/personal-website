@@ -76,7 +76,7 @@ h1 {
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 400;
     color: var(--app-dark-gray-bg);
     letter-spacing: 0.4px;
@@ -102,3 +102,55 @@ a {
     font-weight: 700;
 }
 
+/*--------------HEADER----------------------*/
+
+header {
+    background-color:var(--app-blue-bg);
+    display: flex;
+    height: 60px;
+    overflow: hidden;
+}
+
+header div {
+    width: 40%;
+}
+
+nav {
+    width: 60%;
+    text-align: right;
+
+}
+
+nav ul {
+    list-style-type: none;
+    font-size: 0px;
+}
+
+nav ul li {
+    display: inline;
+    line-height: 60px;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.25s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #fff;
+    background-color: var(--app-dark-blue);
+
+}
+
+nav ul li + li {
+    margin-left: 20px;
+}
+
+.logo {
+    color: var(--app-white);
+    line-height: 60px;
+}
