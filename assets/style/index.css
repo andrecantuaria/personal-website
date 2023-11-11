@@ -14,7 +14,7 @@
     --app-dark-gray-bg: #141414;
     
     
-    
+
     --app-border-gray: #bdb8b8;
 
     --app-header-bg: #151c31;
@@ -23,6 +23,7 @@
     --app-turquoise: #278295;
     --app-light-turquoise: #5dc0d5;
     --app-grayish-blue: #151c31;
+    --app-medium-gray: #8f8f8f;
 }
 
 /*---------SECTIONS BACKGROUND COLOR------------ */
@@ -70,6 +71,32 @@
 
 .btn-blue a:hover {
     background-color: var(--app-light-turquoise);
+}
+
+.btn-gray a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 10px 10px 10px;
+    align-items: center;
+    background-color: var(--app-medium-gray);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--app-white);
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.btn-gray a:hover {
+    background-color: var(--app-light-turquoise);
+}
+
+.btn-side-by-side {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap:    5px;
 }
 
 /*--------------GENERAL STYLES-----------------*/
@@ -365,6 +392,32 @@ nav ul li + li {
 }
 
 
+/*------------SAY HELLO SECTION-------------*/
+
+.say-hello {
+    display: inline-block;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+
+.say-hello h2 {
+    font-size: 35px;
+    color: var(--app-grayish-blue);
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.say-hello p {
+    color: var(--app-dark-gray-bg);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
 
 
 /*--------------FOOTER----------------------*/
@@ -411,6 +464,7 @@ footer {
 .copyright p {
     color: #505464;
     font-weight: 500;
+    font-size: 14px;
 }
 
 
